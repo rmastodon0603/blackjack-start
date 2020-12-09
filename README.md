@@ -1,7 +1,5 @@
 # Домашнее задание
   
-Изучить презентацию Перечисления.pptx
-  
 В продолжении проекта начатого на занятии.
   
 1. Необходимо создать класс `Deck` и `Hand` в пакете [org.itstep.blackjack](src/main/java/org/itstep/blackjack), как на [диаграмме](https://github.com/OOP-Java-DTU-Step-2020/homeworks-video/blob/master/17/diagram.png)
