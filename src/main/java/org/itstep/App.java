@@ -16,15 +16,17 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         AnchorPane rootPane = FXMLLoader.load(new URL(pathToCard("blackjack.fxml")));
-        Scene scene = new Scene(rootPane, 640, 480);
+        Scene scene = new Scene(rootPane);
         stage.setScene(scene);
-        stage.setTitle("Simple application in JavaFX");
+        stage.setTitle("Black Jack");
         stage.getIcons().add(new Image("icon.png"));
+        stage.setResizable(false);
         stage.show();
     }
 
     private String pathToCard(String cardFilename) {
-        if(cardFilename == null) return null;
+        if (cardFilename == null)
+            return null;
         String[] parts = cardFilename.split("/");
         return App.class.getClassLoader().getResource(parts[0]) + (parts.length == 2 ? parts[1] : "");
     }
