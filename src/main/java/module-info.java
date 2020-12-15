@@ -1,9 +1,11 @@
 module org.itstep {
     requires javafx.controls;
     requires javafx.fxml;
-    exports org.itstep.blackjack.controller;
-    exports org.itstep.blackjack.ui;
+    exports org.itstep.ui.controller;
+    exports org.itstep.ui;
     exports org.itstep.blackjack;
     exports org.itstep;
-    opens org.itstep.blackjack.controller;
+    exports org.itstep.blackjack.card;
+    exports org.itstep.blackjack.event;
+    opens org.itstep.ui.controller;
 }

@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.itstep.blackjack.controller.BlackjackController">
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.itstep.ui.controller.BlackjackController">
    <children>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#12725b" height="600.0" stroke="BLACK" strokeType="INSIDE" width="579.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="251.0" AnchorPane.topAnchor="0.0" />
       <Label fx:id="lblBlackJack" layoutX="145.0" layoutY="265.0" text="Black Jack" textFill="WHITE" AnchorPane.bottomAnchor="265.0" AnchorPane.leftAnchor="145.0" AnchorPane.topAnchor="265.0">

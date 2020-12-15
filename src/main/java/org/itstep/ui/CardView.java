@@ -1,9 +1,9 @@
-package org.itstep.blackjack.ui;
+package org.itstep.ui;
 
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
-import org.itstep.blackjack.Card;
+import org.itstep.blackjack.card.Card;
 
 public class CardView extends ImageView {
     private final Card card;
@@ -29,10 +29,6 @@ public class CardView extends ImageView {
         setFitHeight(120);
         setPreserveRatio(true);
     }
-
-    // public Image getImage() {
-    // return image;
-    // }
 
     public Card getCard() {
         return card;

@@ -1,4 +1,4 @@
-package org.itstep.blackjack;
+package org.itstep.blackjack.card;
 
 public enum Rank {
     TWO(2), THREE(3), FOUR(4),

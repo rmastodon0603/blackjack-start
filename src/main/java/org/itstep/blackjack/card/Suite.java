@@ -1,4 +1,4 @@
-package org.itstep.blackjack;
+package org.itstep.blackjack.card;
 
 public enum Suite {
     CLUBS, DIAMONDS, HEARTS, SPADES;

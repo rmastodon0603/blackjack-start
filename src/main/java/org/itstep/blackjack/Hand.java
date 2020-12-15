@@ -1,5 +1,7 @@
 package org.itstep.blackjack;
 
+import org.itstep.blackjack.card.Card;
+
 import java.util.ArrayList;
 import java.util.List;
 
